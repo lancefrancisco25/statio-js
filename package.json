@@ -1,11 +1,11 @@
 {
   "name": "statio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A library for handling the changes made to the state.\n\n",
+  "main": "./statio/module/index.js",
   "scripts": {
-    "start": "node statio/script/index.js",
-    "dev": "nodemon ",
+    "start": "node ./tests/module-test/index.js",
+    "dev": "nodemon ./tests/module-test/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lance Francisco",
