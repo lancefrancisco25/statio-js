@@ -1,5 +1,5 @@
 {
-  "name": "statio",
+  "name": "statiojs",
   "version": "1.0.0",
   "description": "A library for handling the changes made to the state.\n\n",
   "main": "./statio/module/index.js",
