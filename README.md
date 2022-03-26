@@ -1,12 +1,12 @@
-#Statio.js
+# Statio.js
 A library for handling the changes made to the state.
 
 
-#Initialization of State
+# Initialization of State
 
 ---
 
-##statio.createState(string)
+## statio.createState(string)
 - It's a function
 - It creates the state
 - **Store it in a (const) variable**
@@ -15,7 +15,7 @@ A library for handling the changes made to the state.
 const profileState = statio.createState("userName")
 ```
 - To change state, call the .set(any)
-##createState.set(value)
+## createState.set(value)
 - It is a function 
 - Use to change the state
 - **use it together with createState**
@@ -23,10 +23,10 @@ const profileState = statio.createState("userName")
 profileState.set("Statio Developer")
 ```
 
-#Getting the Changes of State
+# Getting the Changes of State
 
 ---
-##createState.attach(function)
+## createState.attach(function)
 - it is a function
 - use to get the effect of the 1 state changing
 - Store it in a variable if you are going to detach it
@@ -36,7 +36,7 @@ profileState.attach(function (state) {
     console.log("The New profile image is " + state);
 })
 ```
-##createState.attach.detach()
+## createState.attach.detach()
 - it is a function
 - It detaches the attachment into state 
 - **only works if you are going to call it inside attach variable**
@@ -55,7 +55,7 @@ const profAttach = profileState.attach(function (state) {
 const detachProf = profAttach.detach()
 detachProf.attach()
 ```
-##createState.get()
+## createState.get()
 - It is a function 
 - Only get the current state when run 
 - Returns the current state
@@ -63,7 +63,7 @@ detachProf.attach()
 console.log(profAttach.get())
 //logs Statio Developer
 ```
-#statio.catchEffect(function, array)
+# statio.catchEffect(function, array)
 - use it independently
 - it is like .attach, but it accepts multiple state names
 - the array only accepts array of the state name (string)
