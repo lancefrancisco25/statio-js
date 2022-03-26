@@ -1,0 +1,21 @@
+{
+  "name": "statio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node statio/script/index.js",
+    "dev": "nodemon ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lance Francisco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
