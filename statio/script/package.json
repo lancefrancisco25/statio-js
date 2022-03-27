@@ -1,17 +1,17 @@
 {
-  "name": "statiojs",
+  "name": "statio-script",
   "version": "1.0.0",
   "description": "A library for handling the changes made to the state.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Lance Francisco",
+  "license": "ISC",
   "keywords": [
     "state",
-    "library",
-    "javascript",
-    "module"
-  ],
-  "author": "Lance Francisco",
-  "license": "ISC"
+    "librar",
+    "script",
+    "javascript"
+  ]
 }
